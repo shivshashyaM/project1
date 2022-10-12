@@ -2,7 +2,7 @@ FROM node:latest
 
 WORKDIR /mnt/c/Users/hp/project1
 
-COPY package.json ./
+COPY package*.json ./
 
 RUN npm install
 
