@@ -1,6 +1,6 @@
 FROM node:latest
 
-WORKDIR /usr/src/app
+WORKDIR /mnt/c/Users/hp/project1/nodeapp_test
 
 COPY package.json ./
 
